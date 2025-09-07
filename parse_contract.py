@@ -4,7 +4,7 @@ Author: Sanika Choudhary
 How to run (CLI):
   python sanika_choudhary.py <input.pdf> <output.json>
 
-What this does, in plain English:
+What this does:
   - Reads a contract PDF and produces a clean, deterministic JSON with
     title, contract_type, effective_date, and a list of sections → clauses.
   - Tries text extraction first (pdfminer). If that fails (e.g., scanned PDFs),
